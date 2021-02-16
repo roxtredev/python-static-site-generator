@@ -23,7 +23,6 @@ class Site:
         else:
             print("Not Implemented")
 
-
     def build(self):
         self.dest.mkdir(parents=True, exist_ok=True)
         for path in self.source.rglob("*"):
