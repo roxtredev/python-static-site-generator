@@ -1,6 +1,5 @@
 import typer
 
-#updated
 from ssg.site import Site
 
 def main(source="content", dest="dist"):
