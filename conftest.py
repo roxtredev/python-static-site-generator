@@ -1,6 +1,8 @@
 import re
 import ast
 
+import sys
+
 import parso
 import pytest
 
