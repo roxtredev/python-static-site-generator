@@ -1,6 +1,5 @@
 from typing import List
 
-from typing import List
 from pathlib import Path
 import shutil
 
