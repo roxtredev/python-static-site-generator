@@ -10,7 +10,6 @@ def test_parser_imports_module4(parse):
     # from markdown import markdown
 
     # from ssg.content import Content
-
     parsers = parse("parsers")
     assert parsers.success, parsers.message
 
